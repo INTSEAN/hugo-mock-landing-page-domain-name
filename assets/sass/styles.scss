@@ -1,40 +1,62 @@
 .home {
-    --bd-purple: #4c0bce;
-    --bd-violet: #712cf9;
+    --bd-purple: #ffffff;
+    --bd-violet: #2c99f9;
     --bd-accent: #ffe484;
+    /// Styles for the home page
     --bd-violet-rgb: 112.520718,44.062154,249.437846;
     --bd-accent-rgb: 255,228,132;
     --bd-pink-rgb: 214,51,132;
 
     .bd-masthead {
         padding: 3rem 0;
-        background-image: linear-gradient(180deg, rgba(var(--bs-body-bg-rgb), 0.01), rgba(var(--bs-body-bg-rgb), 1) 85%),radial-gradient(ellipse at top left, rgba(var(--bs-primary-rgb), 0.5), transparent 50%),radial-gradient(ellipse at top right, rgba(var(--bd-accent-rgb), 0.5), transparent 50%),radial-gradient(ellipse at center right, rgba(var(--bd-violet-rgb), 0.5), transparent 50%),radial-gradient(ellipse at center left, rgba(var(--bd-pink-rgb), 0.5), transparent 50%);
+        background: black;
+        color: white;
     }
 
     .btn-bd-primary {
-        --bs-btn-font-weight: 600;
-        --bs-btn-color: var(--bs-white);
-        --bs-btn-bg: var(--bd-violet);
-        --bs-btn-border-color: var(--bd-violet);
+        --bs-btn-font-weight: 200;
+        --bs-btn-color: black;
+        --bs-btn-bg: white;
+        --bs-btn-border-color: transparent transparent transparent;
         --bs-btn-border-radius: .5rem;
-        --bs-btn-hover-color: var(--bs-white);
-        --bs-btn-hover-bg: #6528e0;
-        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-hover-color: black;
+        --bs-btn-hover-bg: rgba(255, 255, 255, 1.0);
+        --bs-btn-hover-border-color: #ffffff;
         --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-        --bs-btn-active-color: var(--bs-btn-hover-color);
-        --bs-btn-active-bg: #5a23c8;
-        --bs-btn-active-border-color: #5a23c8;
+        --bs-btn-active-color: var(--bd-violet);
+        --bs-btn-active-bg: #ffffff;
+        --bs-btn-active-border-color: #ffffff;
+        transition: background-color 0.5s ease-in;
     }
+
+    .btn-bd-primary:hover {
+        transition-duration: 0.3secs
+    }
+
+    .btn-bd-secondary {
+        --bs-btn-font-weight: 200;
+        width: 10rem;
+        --bs-btn-border-color: white;
+    }
+
+    .btn-hero-transition {
+        color: white;
+        background-color: rgba(10, 136, 182, 0.471);
+        --bs-btn-border-color:  rgba(10, 136, 182, 0.863);
+            -webkit-box-shadow:0px 0px 105px 16px rgba(10,136,182,0.9);
+            -moz-box-shadow: 0px 0px 105px 16px rgba(10,136,182,0.9);
+            box-shadow: 0px 0px 105px 16px rgba(10,136,182,0.9);
+    }
+
 }
 
 .navbar {
     @extend .navbar-dark;
-
     --bd-violet-rgb: 112.520718,44.062154,249.437846;
-    
     padding: .75rem 0;
-    background-color: transparent;
-    background-image: linear-gradient(to bottom, rgba(var(--bd-violet-rgb), 1), rgba(var(--bd-violet-rgb), 0.95));
+    background-color: black;
+    font-weight: 300;
+    border-bottom: 0.05px solid white;
     box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15),inset 0 -1px 0 rgba(0,0,0,0.15);
 }
 
@@ -59,3 +81,68 @@
         transform: rotate(-2deg) scale(1.1);
     }
 }
+
+
+// .feature-card {
+//     background: linear-gradient(135deg, #2b3c4b, #000000);
+//     border-radius: 16px;
+//     border-color: #2b3c4b;
+//     width: 400px;
+//     height: 200px;
+//     transition: background-color 0.4s ease-in-out, transform 0.3s ease-in-out;
+//     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+//     color: white;
+//     text-align: center;
+//     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    
+// }
+
+// .feature-title {
+//     color: rgba(10, 136, 182, 0.99);
+//     border-color:  rgba(10, 136, 182, 0.863);
+//     border-width: 1px;
+//     font-size: 2rem;
+// }
+
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(135deg, #232536, #3a3a5f);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px;
+    // GLOW
+    
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow:0px 0px 105px 3px rgba(10,136,182,0.9);
+    -moz-box-shadow: 0px 0px 105px 3px rgba(10,136,182,0.9);
+    box-shadow: 0px 0px 105px 3px rgba(10,136,182,0.9);
+  }
+  
+  .feature-title {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .feature-card p {
+    font-size: 1em;
+    opacity: 0.8;
+    max-width: 80%;
+  }
+  
+  .feather {
+    width: 60px;
+    height: 60px;
+  }
+  

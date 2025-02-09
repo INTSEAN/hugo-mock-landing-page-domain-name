@@ -1,11 +1,14 @@
 import React from "react";
 import AnimatedComponent from "./components/AnimatedComponent";
+import AnimatedTitle from "./components/AnimatedTitle";
 import "../styles/animations.css";
 
 const App = () => {
   return (
     <div className="app">
-      <h1 className="fade-in">Welcome to My Hugo Site</h1>
+      <div id="animated-title">
+        <AnimatedTitle />
+      </div>
       <AnimatedComponent />
     </div>
   );
