@@ -1,34 +1,46 @@
-<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+<section class="section bd-masthead">
+  <div class="container-xxl">
+    <div class="col-md-8 mx-auto text-center my-5">
+      <!-- Hero Section -->
+      <header class="hero">
+        <h1
+          style="
+            display: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            margin-bottom: 50px;
+          "
+        >
+          <span class="hero-tagline">The future of your industry&nbsp;</span>
+          <span class="gradient-text">starts here.</span>
+        </h1>
+      </header>
+      <!-- From Uiverse.io by gharsh11032000 -->
 
-    {{ range first 3 (where .Site.RegularPages.ByDate.Reverse "Section" "post" ) }}
-        <div class="col">
-
-            <div class="card h-100">
-                <div class="card-body">
-                    <h4 class="card-title">
-                        <a class="stretched-link text-primary text-decoration-none" href="{{ .RelPermalink }}">
-                            {{ .Title }}
-                        </a>
-                    </h4>
-                    {{ with .Params.authors }}
-                        <p class="card-subtitle text-muted">
-                            by {{ index . 0 }}
-                        </p>
-                    {{ end }}
-                    <p class="card-text mt-3">
-                        {{ with .Params.description }}
-                            {{ . }}
-                        {{ else }}
-                            {{ .Summary | truncate 200 }}
-                        {{ end }}
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-muted">{{ .Date | time.Format ":date_long" }}</small>
-                </div>
-            </div>
- 
-        </div>
-    {{ end }}
-
-</div>
+      <div class="form-container">
+        <form class="form">
+          <div class="form-group">
+            <label for="email">Company Email</label>
+            <input type="text" id="email" name="email" required="" />
+          </div>
+          <div class="form-group">
+            <label for="textarea">How Can We Help You?</label>
+            <textarea
+              name="textarea"
+              id="textarea"
+              rows="100"
+              cols="100"
+              required=""
+            >
+            </textarea>
+          </div>
+          <button class="form-submit-btn" type="submit">Submit</button>
+        </form>
+      </div>
+      <!-- End of form -->
+      <div style="margin-bottom: 30px"></div>
+      <h1 class="display-4 hero-tagline mb-3">{{ .Site.Title }}</h1>
+    </div>
+  </div>
+</section>

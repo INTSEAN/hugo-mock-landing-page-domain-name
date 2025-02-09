@@ -1,30 +1,77 @@
-<div class="row row-cols-1 g-4">
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-column">
+      <h4>PRODUCTS</h4>
+      <ul>
+        <li><a href="#">Africa Data Engine</a></li>
+        <li><a href="#">Africa GenAI Platform</a></li>
+        <li><a href="#">Africa Donovan</a></li>
+      </ul>
+      <h4 style="margin-top: 20px">GOVERNMENT</h4>
+      <ul>
+        <li><a href="#">Africa Defense</a></li>
+        <li><a href="#">Africa Federal</a></li>
+        <li><a href="#">Africa Public Sector</a></li>
+      </ul>
+    </div>
 
-    {{ range .Site.Taxonomies.tags.featured }}
-        <div class="col">
+    <div class="footer-column">
+      <h4>COMPANY</h4>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Security</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
+    </div>
 
-            <div class="card">
-                <div class="card-body">
-                    <h4 class="card-title">
-                        <a class="stretched-link text-primary text-decoration-none" href="{{ .RelPermalink }}">
-                            {{ .Title }}
-                        </a>
-                    </h4>
-                    <p class="text-text">
-                        {{ with .Params.description }}
-                            {{ . }}
-                        {{ else }}
-                            {{ .Summary | truncate 400 }}
-                        {{ end }}
-                    </p>
-                    <p class="text-text text-muted">
-                        <small>
-                            {{ .Lastmod | time.Format ":date_long" }}
-                        </small>
-                    </p>
-                </div>
-            </div>
-    
-        </div>
-    {{ end }}
-</div>
+    <div class="footer-column">
+      <h4>RESOURCES</h4>
+      <ul>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Customers</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Open Datasets</a></li>
+        <li><a href="#">Documentation</a></li>
+        <li><a href="#">Guides</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">AI Readiness Report 2025</a></li>
+        <li><a href="#">Research</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>GUIDES</h4>
+      <ul>
+        <li><a href="#">Data Labeling</a></li>
+        <li><a href="#">Data Annotation</a></li>
+        <li><a href="#">ML Model Unlearning</a></li>
+        <li><a href="#">ML Model Training</a></li>
+        <li><a href="#">Diffusion Models</a></li>
+        <li><a href="#">Guide to AI for eCommerce</a></li>
+        <li><a href="#">Computer Vision Applications</a></li>
+        <li><a href="#">Large Language Models</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column social">
+      <h4>FOLLOW US</h4>
+      <div class="social-icons">
+        <a href="#"
+          ><img src="{{ `linkedin.svg` | relURL }}" alt="LinkedIn"
+        /></a>
+        <a href="#"
+          ><img src="{{ `facebook.svg` | relURL }}" alt="Facebook"
+        /></a>
+        <a href="#"><img src="{{ `youtube.svg` | relURL }}" alt="Youtube" /></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>Copyright © 2025 Africa AI, Inc. All rights reserved.</p>
+    <a href="#">Terms of Use & Privacy Policy</a>
+  </div>
+</footer>

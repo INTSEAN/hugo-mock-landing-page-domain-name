@@ -1,5 +1,3 @@
-{{ define "main" }}
-
 <section class="section bd-masthead">
   <div class="container-xxl">
     <div class="col-md-8 mx-auto text-center my-5">
@@ -18,8 +16,8 @@
             gap: 5px;
           "
         >
-          <span class="hero-tagline">Power&nbsp;</span>
-          <span class="gradient-text">Government AI</span>
+          <span class="hero-tagline">The Future of Your Industry&nbsp;</span>
+          <span class="gradient-text">Starts With AfricaAI</span>
         </h1>
         <h1 class="display-4 hero-tagline mb-3">With {{ .Site.Title }}</h1>
         <p class="hero-lead">
@@ -42,46 +40,6 @@
         style="color: white"
         >Build AI &rarr;
       </a>
-      <p class="text-muted mb-0">Open-source MIT Licensed.</p>
     </div>
   </div>
 </section>
-
-<section class="section bd-africaai" style="margin-bottom: 200px">
-  <div class="container-xxl">
-    <div class="col-md-8 mx-auto text-center my-5">
-      <p class="hero-transition">
-        BAFOMAL (Bias and Fairness of Models Alignment Lab) is our research
-        initiative to improve model capabilities through challenging private
-        evaluations and novel research.
-      </p>
-      <a
-        class="btn btn-lg btn-hero-transition px-4 mb-2"
-        href="https://github.com/filipecarneiro/hugo-bootstrap-theme"
-        role="button"
-        style="color: white; margin-top: 60px"
-        >Learn More &rarr;
-      </a>
-    </div>
-  </div>
-</section>
-
-{{/* The following code is used to include React Sripts */}}
-<div id="react-root"></div>
-<script type="module" src="{{ `js/main.js` | relURL }}"></script>
-
-{{/* React Script End */}}
-
-<section class="section container my-3">{{ partial "features" . }}</section>
-
-<section class="section container my-3">
-  <h3 class="text-secondary text-center my-5"></h3>
-  {{ partial "latest-posts" . }}
-</section>
-
-<section class="section container my-3">
-  <h3 class="text-secondary text-center my-5"></h3>
-  {{ partial "featured-pages" . }}
-</section>
-
-{{ end }}
