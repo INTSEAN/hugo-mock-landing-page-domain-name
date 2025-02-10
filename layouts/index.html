@@ -9,15 +9,7 @@
     <div class="col-md-8 mx-auto text-center my-5">
       <!-- Hero Section -->
       <header class="hero">
-        <h1
-          style="
-            margin-right: 250px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 5px;
-          "
-        >
+        <h1 class="hero-landing">
           <span class="hero-tagline">Power&nbsp;</span>
           <span class="dropping-texts">
             <div class="gradient-text">Government AI</div>
@@ -26,6 +18,7 @@
             <div class="gradient-text">Generative AI</div>
           </span>
         </h1>
+
         <h1 class="display-4 hero-tagline mb-3">With {{ .Site.Title }}</h1>
         <p class="hero-lead">
           Train better AI models with culturally-aware, high-quality models and
@@ -62,7 +55,7 @@
       </p>
       <a
         class="btn btn-lg btn-hero-transition px-4 mb-2"
-        href="https://github.com/filipecarneiro/hugo-bootstrap-theme"
+        href="#"
         role="button"
         style="color: white; margin-top: 100px"
         >Learn More &rarr;
@@ -71,13 +64,17 @@
   </div>
 </section>
 
-{{/* The following code is used to include React Sripts */}}
-<div id="react-root"></div>
-<script type="module" src="{{ `js/main.js` | relURL }}"></script>
-
-{{/* React Script End */}}
-
 <section class="section container my-3">{{ partial "features" . }}</section>
+
+<section class="section container my-3">
+  <h3 class="text-secondary text-center my-5"></h3>
+  {{ partial "product-shots" . }}
+</section>
+
+<section class="section container my-3">
+  <h3 class="text-secondary text-center my-5"></h3>
+  {{ partial "product-2" . }}
+</section>
 
 <section class="section container my-3">
   <h3 class="text-secondary text-center my-5"></h3>
