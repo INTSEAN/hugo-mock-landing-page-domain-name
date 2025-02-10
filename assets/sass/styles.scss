@@ -197,9 +197,51 @@
     transition: transform 0.2s ease-in-out;
 
     &:hover {
-        transform: rotate(-2deg) scale(1.1);
+        transform: translateY(-2px) scale(1.005);
+        opacity: 0.9;
     }
 }
+.nav-link , .nav-item, a.nav-link {
+  transition: transform 0.2s ease-in-out;
+  &::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -2px; /* Adjust based on preference */
+    width: 0;
+    height: 2px; /* Underline thickness */
+    background-color: white; /* Matches navbar text color */
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+&:hover::after {
+    width: 100%;
+    left: 0;
+}
+}
+
+.nav-link {
+  position: relative; /* Needed for ::after positioning */
+  transition: transform 0.2s ease-in-out;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -2px; /* Adjust based on preference */
+    width: 0;
+    height: 2px; /* Underline thickness */
+    background-color: white; /* Matches navbar text color */
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+  }
+
+  &:hover::after {
+    width: 100%;
+    left: 0;
+    color: white;
+  }
+}
+
 
 // 
 // 
