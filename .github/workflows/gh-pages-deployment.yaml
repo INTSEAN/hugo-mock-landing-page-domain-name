@@ -39,3 +39,7 @@ jobs:
           user_email: "github-actions[bot]@users.noreply.github.com"
           ## NOTE: uncomment below if using a custom domain
           ## cname: mydomain.com
+    
+      - name: 📢 Site Deployment Link
+        run: |
+          echo "🌐 Site deployed to: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
