@@ -153,3 +153,47 @@ Happy coding! 🚀
 yaml
 Copy
 Edit
+
+
+## These are insights I gained about github actions while setting up the autodeploy action:
+
+What is the difference between checkout@v4 and the checkout@v3.5.1 as used in this file?
+
+So to make sure I've understood this flow critique my understanding of how to setup a GitHub action: 
+We define the name of the action, we define a trigger & the branch and then we define a job by specifying the name of the job. Then we specify the VM it'll run on. (Ubuntu is preferred because of it's lightweight design) Next we specify steps. We name the step and what it uses. In this case our first step checking the source repo uses the checkout action to check all the files in our repository, then to make our action more specific we gave it details on the hugo specific extension and depth of the check for git history. We then moved to another step.
+
+You've got a good understanding of the GitHub Actions workflow! Let me first address the difference between checkout versions, and then review your understanding.
+
+Difference between checkout@v3.5.1 and checkout@v4
+The main differences between actions/checkout@v3.5.1 and checkout@v4 include:
+
+Performance improvements: v4 has better performance, particularly for larger repositories
+Node runtime: v4 uses Node 20 (v3 used Node 16)
+Default behavior change: v4 sets persist-credentials to false by default
+Token handling: v4 has improved handling of tokens and permissions
+Bug fixes: Various bug fixes and security improvements
+For most basic use cases like this Hugo site, either version would work fine, but v4 is the more current and recommended version.
+
+Your Understanding of GitHub Actions Setup
+Your understanding is quite accurate! A few minor refinements:
+
+✅ Naming and Triggers: You correctly identified how the workflow name is defined and how triggers work with branch specifications.
+
+✅ Job Definition: You're right that we define jobs by name and specify the runner environment.
+
+🔍 About Ubuntu: While Ubuntu is commonly used, it's not just about being lightweight - it's about compatibility with common build tools and broad support. GitHub also offers Windows and macOS runners depending on needs.
+
+✅ Steps Structure: You accurately described how steps are named and how they reference actions.
+
+✅ Checkout Configuration: You correctly understood that the checkout action is configured with submodules and fetch-depth to support Hugo-specific requirements.
+
+✅ Progression: You understood that the workflow progresses through distinct steps.
+
+The only small detail I'd add is that each step either:
+
+Uses an existing action (with uses: keyword)
+Runs shell commands directly (with run: keyword)
+Or sometimes both
+In this workflow, we see both patterns - using community actions (checkout, Hugo setup, GitHub Pages deployment) and direct commands (the Hugo build step).
+
+Your understanding of the overall flow structure and purpose is spot on!
