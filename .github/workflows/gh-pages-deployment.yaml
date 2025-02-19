@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: 🔄 Check Out Source Repository
-        uses: actions/checkout@v3.5.1
+        uses: actions/checkout@v4
         with:
           submodules: true # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
@@ -24,7 +24,7 @@ jobs:
       - name: 🛠️ Initialize Hugo Environment
         uses: peaceiris/actions-hugo@v2.6.0
         with:
-          hugo-version: "0.123.4"
+          hugo-version: "0.144.1"
           extended: true
 
       - name: 🏗️ Compile Hugo Static Files
