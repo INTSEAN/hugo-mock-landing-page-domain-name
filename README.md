@@ -2,7 +2,7 @@
 
 > A fully customizable **landing page template** built with Hugo, designed for **fast deployment, modular customization, and professional design.**  
 
-📢 **Live Demo:** [hugo-mock-landing-page-autodeployed](https://intsean.github.io/hugo-mock-landing-page-autodeployed/)  
+📢 **Live Demo:** [hugo-mock-landing-page-domain-name](https://nets3500.online/)  
 
 🌟 **If you find this project helpful, please consider [starring the repository](#contributing)! It helps support the project and makes it easier for others to discover.**  
 
