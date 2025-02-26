@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Featured on Africa AI</title><link>https://nets3500.online/tags/featured/</link><description>Recent content in Featured on Africa AI</description><generator>Hugo</generator><language>en</language><copyright>Sean Donovan</copyright><lastBuildDate>Wed, 26 Feb 2025 01:38:27 +0000</lastBuildDate><atom:link href="https://nets3500.online/tags/featured/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo Bootstrap Theme alpha</title><link>https://nets3500.online/post/hugo-bootstrap-theme/</link><pubDate>Sun, 22 May 2022 13:35:02 +0100</pubDate><guid>https://nets3500.online/post/hugo-bootstrap-theme/</guid><description>&lt;blockquote>
+&lt;p>Hugo theme for a secure, blazing fast and SEO-ready static website, using Bootstrap 5.&lt;/p>&lt;/blockquote>
+&lt;p>Open-source MIT Licensed Hugo Theme, using Bootstrap 5.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>🛡️ Security aware&lt;/p>
+&lt;p>Get A+ scores on Mozilla Observatory out of the box. Easily change the default Security Headers to suit your needs.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>⚡ Fast by default&lt;/p>
+&lt;p>Get 100 scores on Google Lighthouse by default. Hugo Bootstrap Theme removes unused css, prefetches links, and lazy loads images.&lt;/p></description></item><item><title>Bootstrap Carousel 🎠</title><link>https://nets3500.online/page/bootstrap-carousel/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nets3500.online/page/bootstrap-carousel/</guid><description>&lt;h1 id="bootstrap-carousel">Bootstrap Carousel&lt;/h1>
+&lt;p>A slideshow component for cycling through elements—images or slides of text — like a carousel.&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;p>See &lt;a href="https://getbootstrap.com/docs/5.3/components/carousel/" target="_blank" rel="noopener">Carousel documentation&lt;/a>.&lt;/p></description></item><item><title>Bootstrap Components ✨</title><link>https://nets3500.online/page/bootstrap-components/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nets3500.online/page/bootstrap-components/</guid><description>&lt;h1 id="bootstrap-components">Bootstrap Components&lt;/h1>
+&lt;p>Bootstrap is bundled with tens of components that can be reused to provide a good user experience and user interactions in a web page.&lt;/p>
+&lt;hr>
+&lt;h2 id="accordion">Accordion&lt;/h2>
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;p>See &lt;a href="https://getbootstrap.com/docs/5.3/components/accordion/" target="_blank" rel="noopener">Accordion documentation&lt;/a>.&lt;/p>
+&lt;hr>
+&lt;h2 id="alert">Alert&lt;/h2>
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;p>See &lt;a href="https://getbootstrap.com/docs/5.3/components/alerts/" target="_blank" rel="noopener">Alert documentation&lt;/a>.&lt;/p>
+&lt;hr>
+&lt;h2 id="badge">Badge&lt;/h2>
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;p>&lt;!-- raw HTML omitted -->Rounded pill&lt;!-- raw HTML omitted -->&lt;/p></description></item><item><title>Hugo Front Matter 🦉</title><link>https://nets3500.online/page/hugo-front-matter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nets3500.online/page/hugo-front-matter/</guid><description>Hugo allows you to add front matter in yaml, toml, or json to your content files. Read on to know more about predefined and user-defined front matter variables.</description></item><item><title>Markdown Cheat Sheet Ⓜ️⬇️</title><link>https://nets3500.online/page/markdown-cheat-sheet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nets3500.online/page/markdown-cheat-sheet/</guid><description>&lt;h1 id="markdown-cheat-sheet">Markdown Cheat Sheet&lt;/h1>
+&lt;p>Hugo has excellent Markdown support out of the box. By default, Hugo uses the &lt;a href="https://github.com/yuin/goldmark/" target="_blank" rel="noopener">Goldmark Markdown processor&lt;/a> which is fully CommonMark-compliant. See the &lt;a href="https://gohugo.io/getting-started/configuration-markup/" target="_blank" rel="noopener">configuration instructions&lt;/a> to learn more about the extensions you can configure.&lt;/p>
+&lt;h2 id="overview">Overview&lt;/h2>
+&lt;p>You can refer to the table below for an overview of basic markdown syntax:&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>TASK&lt;/th>
+ &lt;th>MARKDOWN SYNTAX&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Heading 1&lt;/td>
+ &lt;td>&lt;code>#&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Heading 2&lt;/td>
+ &lt;td>&lt;code>##&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Heading 3&lt;/td>
+ &lt;td>&lt;code>###&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Italics&lt;/td>
+ &lt;td>&lt;code>*italics*&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Bold&lt;/td>
+ &lt;td>&lt;code>**Bold**&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Strike&lt;/td>
+ &lt;td>&lt;code>~~strike~~&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Blockquote&lt;/td>
+ &lt;td>&lt;code>&amp;gt;&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Links&lt;/td>
+ &lt;td>&lt;code>[link name](https://link.com)&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Images&lt;/td>
+ &lt;td>&lt;code>![Image name](image.png)&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Unordered list&lt;/td>
+ &lt;td>&lt;code>* List item&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Ordered list&lt;/td>
+ &lt;td>&lt;code>1. List item&lt;/code>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Inline Code&lt;/td>
+ &lt;td>&lt;!-- raw HTML omitted -->`insert code here`&lt;!-- raw HTML omitted -->&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>{.table .table-sm .table-striped .table-hover}&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="headings">Headings&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span># Heading 1
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## Heading 2
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">### Heading 3
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#### Heading 4
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">##### Heading 5
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">###### Heading 6
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="heading-1">Heading 1&lt;/h1>
+&lt;h2 id="heading-2">Heading 2&lt;/h2>
+&lt;h3 id="heading-3">Heading 3&lt;/h3>
+&lt;h4 id="heading-4">Heading 4&lt;/h4>
+&lt;h5 id="heading-5">Heading 5&lt;/h5>
+&lt;h6 id="heading-6">Heading 6&lt;/h6>
+&lt;hr>
+&lt;h2 id="lists">Lists&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">*&lt;/span> Unordered item
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">*&lt;/span> Unordered item
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">*&lt;/span> Unordered item
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">1.&lt;/span> Ordered item
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">2.&lt;/span> Ordered item
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">3.&lt;/span> Ordered item
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- [ ]&lt;/span> Task item
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- [x]&lt;/span> Checked Task item
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- [ ]&lt;/span> Task item
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>Unordered item&lt;/li>
+&lt;li>Unordered item&lt;/li>
+&lt;li>Unordered item&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>Ordered item&lt;/li>
+&lt;li>Ordered item&lt;/li>
+&lt;li>Ordered item&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Task item&lt;/li>
+&lt;li>&lt;input checked="" disabled="" type="checkbox"> Checked Task item&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Task item&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="format">Format&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>**Bold**
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="font-style:italic">*Italic*&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">u&lt;/span>&amp;gt;Underline&amp;lt;/&lt;span style="color:#f92672">u&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">sup&lt;/span>&amp;gt;Superscript&amp;lt;/&lt;span style="color:#f92672">sup&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">sub&lt;/span>&amp;gt;Subscript&amp;lt;/&lt;span style="color:#f92672">sub&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">mark&lt;/span>&amp;gt;Highlight&amp;lt;/&lt;span style="color:#f92672">mark&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">`Inline code`&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">~~Strikethrough~~&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#f92672">Hyperlink&lt;/span>](&lt;span style="color:#a6e22e">http://example.com&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>![&lt;span style="color:#f92672">Image&lt;/span>](&lt;span style="color:#a6e22e">placeholder-50-09f-fff.png&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{ .img-fluid }
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Bold&lt;/strong>&lt;/p></description></item><item><title>Security Best Practices 🔒</title><link>https://nets3500.online/page/security-best-practices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nets3500.online/page/security-best-practices/</guid><description>&lt;h1 id="security-best-practices">Security Best Practices&lt;/h1>
+&lt;p>Improve code health of your web page following these best practices.&lt;/p>
+&lt;h2 id="use-https">Use HTTPS&lt;/h2>
+&lt;p>All websites should be protected with HTTPS, even ones that don&amp;rsquo;t handle sensitive data. HTTPS prevents intruders from tampering with or passively listening in on the communications between your site and your users.&lt;/p>
+&lt;h2 id="external-links">External Links&lt;/h2>
+&lt;p>When you link to a page on another site using the target=&amp;quot;_blank&amp;quot; attribute, you can expose your site to performance and security issues:&lt;/p></description></item></channel></rss>
